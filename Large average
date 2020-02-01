@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+    int n1,n2,i,j,t,avg;
+    scanf("%d",&t);
+    for(j=1;j<=t;j++)
+    {
+    int sum=0,count=0;
+    scanf("%d %d",&n1,&n2);
+    for(i=n1;i<=n2;i++)
+    {
+        sum=sum+i;
+        count++;
+    }
+    avg=sum/count;
+    printf("%d\n",avg);
+}
+}
